@@ -299,7 +299,7 @@ footer .footer-container {
     #resume {
         padding-top: 60px;
     }
-    #skills .skills-container .skill-box, #about .about-container .about-info {
+    #skills .skills-container .skill-box, #about .about-container .about-info, footer .footer-container {
         flex-direction: column;
     }
     .skill-box .skill-card {
@@ -310,4 +310,17 @@ footer .footer-container {
         padding: 20px;
     }
     #about .about-container .about-info {gap: 30px}
+
+    footer .footer-container {
+        gap: 80px;
+    }
+    .footer-container form input[type="text"], .footer-container form textarea {
+        width: 95%;
+    }
+    .footer-container .social {
+        padding: 15px;
+    }
+    .form h2 {
+        margin-left: 15px;
+    }
 }
