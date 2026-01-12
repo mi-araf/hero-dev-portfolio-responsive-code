@@ -299,10 +299,15 @@ footer .footer-container {
     #resume {
         padding-top: 60px;
     }
-    #skills .skills-container .skill-box {
+    #skills .skills-container .skill-box, #about .about-container .about-info {
         flex-direction: column;
     }
     .skill-box .skill-card {
         max-width: 100%;
     }
+
+    #about .about-container {
+        padding: 20px;
+    }
+    #about .about-container .about-info {gap: 30px}
 }
