@@ -294,12 +294,25 @@ footer .footer-container {
     .section-heading h2 {
         font-size: 30px;
     }
+
+    nav {
+        gap: 20px;
+    }
+    nav .menu {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
     #about,
     #skills,
     #resume {
         padding-top: 60px;
     }
-    #skills .skills-container .skill-box, #about .about-container .about-info, footer .footer-container {
+    #skills .skills-container .skill-box,
+    #about .about-container .about-info,
+    footer .footer-container,
+    #resume .resume-container,
+    nav {
         flex-direction: column;
     }
     .skill-box .skill-card {
@@ -310,6 +323,13 @@ footer .footer-container {
         padding: 20px;
     }
     #about .about-container .about-info {gap: 30px}
+
+    #resume .resume-container {
+        margin-top: 60px;
+    }
+    .resume-card {
+        margin-right: 10px;
+    }
 
     footer .footer-container {
         gap: 80px;
