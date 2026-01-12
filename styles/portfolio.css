@@ -162,9 +162,6 @@ nav .menu a {
 }
 
 
-
-
-
 #skills .skills-container .skill-box {
     display: flex;
     gap: 24px;
@@ -287,4 +284,25 @@ footer .footer-container {
 /* temporary class */
 .hide {
     display: none !important;
+}
+
+
+@media screen and (max-width: 576px) {
+    .container {
+        width: 95%;
+    }
+    .section-heading h2 {
+        font-size: 30px;
+    }
+    #about,
+    #skills,
+    #resume {
+        padding-top: 60px;
+    }
+    #skills .skills-container .skill-box {
+        flex-direction: column;
+    }
+    .skill-box .skill-card {
+        max-width: 100%;
+    }
 }
